@@ -32,7 +32,7 @@ Before running the DAG, ensure you have the following prerequisites:
 
 <b> Statistical Analysis (statistical_analysis):</b>
 
-<li> Computes statistical measures such as median, and standard deviation on the 'age' and 'gender' column.</li>
+<li> Computes statistical measures such as median, and standard deviation on the 'age' and 'gender' columns.</li>
 
 
 <b> Save to CSV (save_to_csv):</b>
@@ -52,7 +52,7 @@ Before running the DAG, ensure you have the following prerequisites:
 
 3. Copy the DAG file (ETL.py) to the DAGs directory of your Apache Airflow installation.
 
-4. Access the Airflow web interface and trigger the DAG manually or let it run according to its schedule.
+4. Access the Airflow web interface and trigger the DAG manually.
 
 # Note
 

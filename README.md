@@ -32,15 +32,15 @@ Before running the DAG, ensure you have the following prerequisites:
 
 <b> Statistical Analysis (statistical_analysis):</b>
 
-<li> Computes statistical measures such as mean, median, and standard deviation on the 'age' column.</li>>
+<li> Computes statistical measures such as mean, median, and standard deviation on the 'age' column.</li>
 
 <b> Save to CSV (save_to_csv):</b>
 
-1. Saves the transformed data to a CSV file named transformed_data.csv.
+<li>Saves the transformed data to a CSV file named transformed_data.csv.</li>
 
 <b>Workflow</b>
 
-1. The workflow follows the sequence: data_ingestion ➔ data_cleaning ➔ transformation ➔ statistical_analysis ➔ save_to_csv.
+<li>The workflow follows the sequence: data_ingestion ➔ data_cleaning ➔ transformation ➔ statistical_analysis ➔ save_to_csv. </li>
 
 # Usage
 

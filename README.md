@@ -32,7 +32,7 @@ Before running the DAG, ensure you have the following prerequisites:
 
 <b> Statistical Analysis (statistical_analysis):</b>
 
-<li> Computes statistical measures such as mean, median, and standard deviation on the 'age' column.</li>
+<li> Computes statistical measures such as median, and standard deviation on the 'age' and 'gender' column.</li>
 
 
 <b> Save to CSV (save_to_csv):</b>

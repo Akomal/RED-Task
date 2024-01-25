@@ -32,16 +32,17 @@ Before running the DAG, ensure you have the following prerequisites:
 
 <b> Statistical Analysis (statistical_analysis):</b>
 
-Computes statistical measures such as mean, median, and standard deviation on the 'age' column.
+1. Computes statistical measures such as mean, median, and standard deviation on the 'age' column.
 
 <b> Save to CSV (save_to_csv):</b>
 
-Saves the transformed data to a CSV file named transformed_data.csv.
+1. Saves the transformed data to a CSV file named transformed_data.csv.
 
 <b>Workflow</b>
-The workflow follows the sequence: data_ingestion ➔ data_cleaning ➔ transformation ➔ statistical_analysis ➔ save_to_csv.
 
-#Usage
+1. The workflow follows the sequence: data_ingestion ➔ data_cleaning ➔ transformation ➔ statistical_analysis ➔ save_to_csv.
+
+# Usage
 
 1. Ensure that Apache Airflow is up and running.
 
@@ -51,7 +52,7 @@ The workflow follows the sequence: data_ingestion ➔ data_cleaning ➔ transfor
 
 4. Access the Airflow web interface and trigger the DAG manually or let it run according to its schedule.
 
-#Note
+# Note
 
 1. The DAG is configured with schedule_interval=None, indicating it needs to be triggered manually.
 

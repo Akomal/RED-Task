@@ -13,24 +13,29 @@ sample_data_file.csv: Sample CSV file for data ingestion.
 # Tasks
 <b> Data Ingestion (data_ingestion):</b>
 
-Reads the CSV data from sample_data_file.csv.
-Validates the existence of the file before reading.
-Data Cleaning (data_cleaning):
+1. Reads the CSV data from sample_data_file.csv.
+2. Validates the existence of the file before reading.
 
-Removes empty columns.
-Drops duplicate rows.
-Normalizes column names.
-Transformation (transformation):
+<b>Data Cleaning (data_cleaning):</b>
 
-Applies various transformations to the data:
-Fills missing numeric values with the mean.
-Fills missing float values with the mean.
-Fills missing categorical values with the mode.
-Statistical Analysis (statistical_analysis):
+1. Removes empty columns.
+2. Drops duplicate rows.
+3. Normalizes column names.
+
+<b> Transformation (transformation):</b>
+
+1. Applies various transformations to the data:
+2. Fills missing numeric values with the mean.
+3. Fills missing float values with the mean.
+4. Fills missing categorical values with the mode.
+
+<b> Statistical Analysis (statistical_analysis):</b>
 
 Computes statistical measures such as mean, median, and standard deviation on the 'age' column.
-Save to CSV (save_to_csv):
+
+<b> Save to CSV (save_to_csv):</b>
 
 Saves the transformed data to a CSV file named transformed_data.csv.
-Workflow
+
+<b>Workflow</b>
 The workflow follows the sequence: data_ingestion ➔ data_cleaning ➔ transformation ➔ statistical_analysis ➔ save_to_csv.
